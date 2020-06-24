@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculadora</title>
+  <link type="text/css" href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body >
+  <div class="total">
+    
+    <table class="calculadora">
+      <tr>
+        <td colspan="4"><span id="resultado"></span></td>
+      </tr>
+      <tr>
+        <td><button id="siete"><strong>7</strong></button></td>
+        <td><button id="ocho"><strong>8</strong></button></td>
+        <td><button id="nueve"><strong>9</strong></button></td>
+        <td><button id="division"><strong>÷</strong></button></td>
+      </tr>
+      <tr>
+        <td><button id="cuatro"><strong>4</strong></button></td>
+        <td><button id="cinco"><strong>5</strong></button></td>
+        <td><button id="seis"><strong>6</strong></button></td>
+        <td><button id="multiplicacion"><strong>x</strong></button></td>
+      </tr>
+      <tr>
+        <td><button id="uno"><strong>1</strong></strong></button></td>
+        <td><button id="dos"><strong>2</strong></button></td>
+        <td><button id="tres"><strong>3</strong></button></td>
+        <td><button id="resta"><strong>-</strong></button></td>
+      </tr>
+      <tr>
+        <td><button id="igual"><strong>=</strong></button></td>
+        <td><button id="reset"><strong>C</strong></button></td>
+        <td><button id="cero"><strong>0</strong></button></td>
+        <td><button id="suma"><strong>+</strong></button></td>
+      </tr>
+    </table>
+
+    <div class="cabecera">
+      <h1><strong>HISTÓRICO</strong> </h1>
+    </div>
+
+  </div>
+
+  <div class="supercontenedor">
+    <div id="contenedor"></div>
+  </div>
+  <div class="btns">
+    <button class="btn1" onclick="deleteElements()">Eliminar</button>
+    <button class="btn1" onclick="deleteAllElements()">Eliminar Todo</button>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
